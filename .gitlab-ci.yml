@@ -11,6 +11,3 @@ deploy-stage:
   stage: deploy
   script:
     - echo "deploy stage complete"
-  
-  
- 
