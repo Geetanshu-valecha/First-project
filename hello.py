@@ -1,1 +1,1 @@
-print("this is sample test file for gitlab")
+print("this is sample test file for gitlab pipeline")
