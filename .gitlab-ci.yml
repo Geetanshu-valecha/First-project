@@ -1,7 +1,7 @@
 stages:
  - build
  - deploy
-
+ - test
 build-stage:
   stage: build
   script:
@@ -11,3 +11,8 @@ deploy-stage:
   stage: deploy
   script:
     - echo "deploy stage complete!"
+test-stage:
+  stage: test
+  script:
+    - echo "test stage complete!"    
+    
